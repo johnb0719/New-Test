@@ -1,0 +1,439 @@
+
+/* Fixed background image for the entire page */
+body {
+    background-image: url('../images/RocknSole\ Background\ -\ Main\ 2000px.jpg');
+    /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Keeps the background fixed while scrolling */
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.max-width-logo {
+    max-width: 650px;
+}
+
+/* Transparent navbar */
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-height {
+    height: 92px;
+}
+
+/* Navbar link hover effect */
+.navbar-nav .nav-link {
+    height: 50px;
+    margin: 0px 5px;
+    font-size:18px;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.color-white {
+    color:white;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+/* Style the logo */
+.logo {
+    height: auto;
+}
+
+/* Responsive h2 text */
+.title {
+    /* font: normal 45px Cabin Sketch, display;
+font-size: 2.5rem; /* Responsive font size */
+    /* color: white;
+text-align: center;
+margin: 20px 0; */
+    font: normal bold 40px Cabin Sketch, display;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 48px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+
+/* Scrollable image under the navbar */
+.scroll-image {
+    width: 100%;
+    /* 100% width of the navbar */
+    height: auto;
+}
+.form-container {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: white;
+    font-size: 16px;
+}
+.btn-right {
+    text-align:right;
+}
+
+input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 0px;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.required {
+    color: red;
+}
+/* Centered h4 text */
+.centered-h4 {
+    text-align: center;
+    color: white;
+    margin: 35px 0;
+}
+.left-h4 {
+    text-align: left;
+    color: white;
+    margin: 30px 0;
+}
+
+.pswp__caption__center {
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+.spacer {
+    height: 5em;
+}
+
+.width-100 {
+    width: 100%;
+    margin-top: 20px;
+}
+/* Text columns */
+.text-columns {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Space between columns */
+}
+.text-column-1{
+    color: white;
+    display: flex;
+    text-align:center;
+    gap: 20px;
+    /* Space between columns */
+}
+.text-columns>div {
+    flex: 1;
+    min-width: 0;
+    /* Allows columns to shrink */
+}
+
+.img-custome-1 {
+    width: 80%;
+    margin: 6em auto;
+}
+.img-custome-2 {
+    width: 80%;
+    margin: 2em auto;
+}
+.img-custome-3 {
+    width: 90%;
+    margin-top: 2em ;
+    margin-bottom:0.2em;
+}
+.img-custome-4 {
+    width: 100%;
+    margin: 1em auto;
+    max-width: 70px;
+}
+.width-40{
+    width:40%;
+}
+.custom-toggler {
+    background-color: #FFFFFF;
+    /* Change this to any color you like */
+}
+
+.custom-hr {
+    border: 0;
+    /* Remove default border */
+    height: 1px;
+    /* Thickness of the line */
+    background-color: white;
+    /* Color of the line */
+    width: 90%;
+    /* Width of the line */
+    margin: 5px auto;
+    opacity: 1;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.background-transparent {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.font-custome {
+    font: normal bold 32px Cabin Sketch, display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 48px;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+
+.footer_logo {
+    min-width: 200px;
+    width: 70%;
+    margin: 40px 0px;
+}
+
+.link-margin {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.sticky {
+    max-width: 35px;
+    margin-left: 10px;
+}
+
+.sticky-margin {
+    margin: 30px;
+}
+
+.text-custome-4 {
+
+    font: normal bold 16px Athiti, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #EBEBEB;
+    text-decoration: none;
+    text-align: justify;
+    line-height: 24px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+.text-custome-5 {
+    margin-top:10px;
+    text-align:center;
+    font: normal bold 16px Athiti, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #EBEBEB;
+    text-decoration: none;
+    line-height: 24px;
+    margin: 30px 0 0 0;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+.text-custome-6 {
+
+    font: normal bold 16px Athiti, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #EBEBEB;
+    text-decoration: none;
+    text-align: center;
+    line-height: 24px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+.text-custome-4 {
+
+    font: normal bold 16px Athiti, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #EBEBEB;
+    text-decoration: none;
+    text-align: justify;
+    line-height: 24px;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+
+.site-footer {
+    background-color: #1D1D1F;
+    /* black footer background */
+    color: #fff;
+    /* white text color */
+    padding: 20px 0;
+    align-items: center;
+}
+
+.text-custome-1 {
+    font: normal bold 16px Athiti, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #EBEBEB;
+    text-decoration: none;
+    text-align: center;
+    line-height: 24px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+
+.text-custome-7 {
+    font: normal normal 16px Athiti, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #EBEBEB;
+    text-decoration: none;
+    text-align: center;
+    line-height: 24px;
+    margin: 10px 0;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+
+.text-custome-2 {
+    font: normal bold 16px Athiti, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #EBEBEB;
+    text-decoration: none;
+    text-align: left;
+    line-height: 24px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-transform: none;
+}
+
+.footer-social-icons,
+.footer-privacy,
+.footer-logo,
+.footer-links {
+    align-items: center;
+}
+
+.footer-social-icons a,
+.footer-links a,
+.footer-privacy a {
+    margin-right: 15px;
+    color: #fff;
+    /* white link color */
+    text-decoration: none;
+}
+
+.footer-social-icons img,
+.footer-logo img {
+    height: 20px;
+    /* adjust size accordingly */
+}
+
+.footer-links {
+    border-top: 1px solid #fff;
+    /* white border for the links */
+    padding-top: 20px;
+}
+
+.footer-links a:not(:last-child) {
+    border-right: 1px solid #fff;
+    /* white border between the links */
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.footer-website-url {
+    font-style: italic;
+}
+
+.wb-content {
+    min-width: 20px;
+    min-height: 20px;
+    padding: 0 80px 0 80px;
+}
+
+/* This is just a starting point, you'll need to adjust styles to exactly match your design. */
+
+@media (max-width: 768px) {
+    .text-columns {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Example of a media query for screen sizes less than 768px */
+    .site-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links,
+    .footer-social-icons {
+        flex-direction: column;
+    }
+
+    .footer-links a:not(:last-child) {
+        border-right: none;
+        padding-bottom: 10px;
+    }
+}
